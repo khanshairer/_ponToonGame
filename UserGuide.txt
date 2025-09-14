@@ -1,0 +1,42 @@
+# **Pontoon Game - User Guide**
+
+This guide explains how to run the Pontoon Game in two ways:
+1. **Directly from the command line** using Java.
+2. **Inside a Docker container** for an isolated environment.
+
+---
+
+## **1️⃣ Run from Command Line**
+## Navigate To project Directory : cd /path/to/PONTOONGAME
+## Compile the Jave  Files : javac *.java
+## Launch the Game : java Main
+
+### ** Run inside a Docker container**
+## Open the Docker Desktop App(if not have download)
+## Open the XLauch server for accessing display 
+## Write on Bash : docker build -t pontoon-game .
+## Check the port : DISPLAY$ 
+##Then : docker run -it ^
+-e DISPLAY=172.25.48.1:0 ^
+-v /tmp/.X11-unix:/tmp/.X11-unix ^
+swing-game
+
+
+### **Prerequisites**
+- Install **Java JDK 17 or later**.
+- Verify installation:
+  ```bash
+  java -version
+
+
+### **Project Structure**
+POOTONGAME/
+│
+├── Dockerfile          # Docker setup for building the container
+├── Main.java           # Entry point of the game
+├── PontoonGame.java    # Main game logic and UI
+├── Tile.java           # Tile logic and representation
+└── UserGuide.txt       # This user guide
+
+
+###**Github Repo : ** https://github.com/khanshairer/_ponToonGame 
