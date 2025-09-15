@@ -8,6 +8,11 @@ This creates a mix of **strategy, luck, and quick thinking**, making every match
 
 ---
 
+## 🌐 **Live Demo Video**
+🎥 [Watch the Game in Action](https://www.youtube.com/shorts/ouoqXugoq24)
+
+---
+
 ## **✨ Features**
 - 🎲 **Randomized gameplay**: Each new game board is randomly generated to ensure fresh matches every time.
 - 👥 **Two-player competitive mode**:
